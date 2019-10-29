@@ -52,9 +52,12 @@ button {
   from {background-color: #000;}
   to {background-color: #4bac42;}
 }
-#start:hover {
+button:hover {
   color: #93A654;
   background-color: #000;
+}
+button:active {
+  transform: translateY(4px);
 }
 .question {
   font-size: 30px;

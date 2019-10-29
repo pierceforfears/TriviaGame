@@ -200,7 +200,7 @@ let game = {
   result: function() {
     clearInterval(timer);
     $("#box h2").remove();
-    $("#box").html("<h2 class='done'>All Done!</h2>");
+    $("#box").html("<h2 class='done'>Game Over!</h2>");
     $("#box").append(
       "<h3 class='done'>Correct Answers: " + this.correct + "</h3>"
     );
@@ -213,7 +213,7 @@ let game = {
         "</h3>"
     );
     // Start over button
-    $("#box").append('<button id="startOver" class="done">Start Over</button>');
+    $("#box").append('<button id="startOver" class="done">Play Again</button>');
     $("#startOver").on("click", function() {
       $(".done").remove();
       game.start();

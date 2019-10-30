@@ -25,12 +25,7 @@ let questions = [
   {
     question:
       "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
-    answerArray: [
-      "Palo Alto",
-      "Cupertino",
-      "Santa Clara",
-      "The City by the Bay"
-    ],
+    answerArray: ["Palo Alto", "Cupertino", "Santa Clara", "Oaktown's 357"],
     correctAnswer: ["Santa Clara"]
   },
   {
@@ -72,7 +67,7 @@ let questions = [
       "Rapid Access for Indexed Devices",
       "Redundant Array of Independent Disks",
       "Romeo Alpha Indigo Delta",
-      "Rollin' Around In Dumptrucks"
+      "Rollin' Around In Detroit"
     ],
     correctAnswer: ["Redundant Array of Independent Disks"]
   },

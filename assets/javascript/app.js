@@ -109,9 +109,7 @@ let game = {
   // Start of game
   start: function() {
     timer = setInterval(game.countdown, 1000);
-    $("#box").prepend(
-      "<h2>Time Remaining: <span id='counter'>120</span> Seconds</h2>"
-    );
+    $("#box").prepend("<h2>Timer: <span id='counter'>120</span> Secs</h2>");
     $("#start").remove();
     for (let i = 0; i < questions.length; i++) {
       $("#box").append(

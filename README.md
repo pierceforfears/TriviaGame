@@ -1,5 +1,7 @@
 TriviaGame
 
+https://pierceforfears.github.io/TriviaGame/
+
 This is a multi-choice trivia game.
 
 The player will have a limited amount of time to finish the quiz.
